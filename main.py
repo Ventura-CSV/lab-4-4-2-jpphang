@@ -11,6 +11,9 @@ def main():
         try:
             number = user_input
         
+        except: ValueError
+        print
+        
             
 
     ########################################
