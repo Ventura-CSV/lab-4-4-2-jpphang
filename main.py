@@ -4,6 +4,14 @@ def main():
     Code Your Program here
     ########################################
     """
+    
+    while True:
+        user_input = int(input("Enter a number"))
+        
+        try:
+            number = user_input
+        
+            
 
     ########################################
     # Do not delete the return statement
