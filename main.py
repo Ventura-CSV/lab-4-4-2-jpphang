@@ -6,13 +6,13 @@ def main():
     """
     
     while True:
-        user_input = int(input("Enter a number"))
+        user_input = input("Enter a number:")
         
         try:
-            number = user_input
+            number = float(user_input)
         
         except ValueError:
-            print("input must be numeric")
+            print("Input Must Be Numeric")
             
         else: print(number)
         
