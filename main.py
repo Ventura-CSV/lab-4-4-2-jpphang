@@ -9,7 +9,7 @@ def main():
         user_input = input("Enter a number:")
         
         try:
-            number = float(user_input)
+            number = (user_input)
         
         except ValueError:
             print("Input Must Be Numeric")
