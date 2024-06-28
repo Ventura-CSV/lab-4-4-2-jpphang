@@ -11,8 +11,8 @@ def main():
         try:
             number = user_input
         
-        except: ValueError
-        print
+        except: ValueError:
+            print("input must be numeric")
         
             
 
